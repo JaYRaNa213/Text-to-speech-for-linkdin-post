@@ -30,7 +30,7 @@ Hindi and English speech synthesis
 
 
 ---
-
+```
 📂 Project Structure
 
 voice-ai-agent/
@@ -43,11 +43,11 @@ voice-ai-agent/
 │── output/
 │   ├── voice_ai_agent.mp3      # Generated voice files saved here
 
-
+```
 ---
 
-⚙️ Installation
-
+## ⚙️ Installation
+```
 Clone the repository and install dependencies:
 
 git clone https://github.com/your-username/voice-ai-agent.git
@@ -71,11 +71,11 @@ pip install pyttsx3 edge-tts requests python-dotenv
 
 
 ---
-
-🔹 1. Run Without ElevenLabs API (Free & Offline)
+```
+## 🔹 1. Run Without ElevenLabs API (Free & Offline)
 
 You can use pyttsx3 (offline) or edge-tts (Microsoft’s neural voices).
-
+```
 Example: Offline TTS
 
 # scripts/tts_offline.py
@@ -89,7 +89,7 @@ engine.setProperty("voice", voices[0].id)  # Pick a male/female voice
 engine.save_to_file(script_text, "output/voice_ai_agent.mp3")
 engine.runAndWait()
 print("✅ Offline voiceover saved!")
-
+```
 Run:
 
 python scripts/tts_offline.py
@@ -97,7 +97,7 @@ python scripts/tts_offline.py
 
 ---
 
-🔹 2. With ElevenLabs API (English TTS)
+### 🔹 2. With ElevenLabs API (English TTS)
 
 1. Get your API key from ElevenLabs.
 
@@ -111,7 +111,7 @@ ELEVEN_API_KEY=your_api_key_here
 3. Example code:
 
 
-
+```
 # scripts/tts_elevenlabs_en.py
 import os, requests
 from dotenv import load_dotenv
@@ -144,11 +144,11 @@ python scripts/tts_elevenlabs_en.py
 
 
 ---
-
-🔹 3. With ElevenLabs API (Hindi TTS)
+```
+## 🔹 3. With ElevenLabs API (Hindi TTS)
 
 You can also generate Hindi speech using ElevenLabs multilingual voices.
-
+```
 # scripts/tts_elevenlabs_hi.py
 import os, requests
 from dotenv import load_dotenv
@@ -181,8 +181,8 @@ python scripts/tts_elevenlabs_hi.py
 
 
 ---
-
-📌 Notes
+```
+### 📌 Notes
 
 Replace EXAVITQu4vr4xnSDxMaL with your chosen ElevenLabs Voice ID.
 
@@ -194,7 +194,7 @@ Free mode (offline pyttsx3 / edge-tts) works without API keys.
 
 ---
 
-🎬 Example Use Case
+## 🎬 Example Use Case
 
 Create voiceovers for videos
 
