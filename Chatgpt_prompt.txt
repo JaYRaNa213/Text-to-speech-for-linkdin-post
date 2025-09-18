@@ -1,0 +1,58 @@
+15-Second Video Script
+
+​Video Title: How to Create a Voice AI Agent in 3 Steps
+
+​Target Audience: Developers, tech enthusiasts
+
+​**(0-2 seconds) - Hook**
+
+​Visual: Start with a dynamic shot of the user and admin dashboard from 1000222250.png, emphasizing the "Talk to Agent" button and the "Qualified" lead status.
+
+​Text Overlay: "Build a Voice AI Agent in 3 Simple Steps"
+
+​Voiceover: "Tired of repetitive tasks? Build your own voice AI agent!"
+
+
+​**(2-7 seconds) - Step 1: Voice AI**
+
+​Visual: Show a screen recording of the Vapi website or a code snippet with Vapi integration.
+
+​Text Overlay: "Step 1: Use Vapi for Voice."
+
+​Voiceover: "Step one: Use Vapi to handle real-time voice conversations with powerful AI capabilities."
+
+
+​**(7-12 seconds) - Step 2: Workflow Automation**
+
+​Visual: Transition to the 1000222251.png image showing the n8n workflow. Highlight the flow from "Webhook" to "send to Backend" and "send email."
+
+​Text Overlay: "Step 2: Automate with n8n."
+
+​Voiceover: "Step two: Automate your process with an n8n workflow. This handles everything from data formatting to sending emails for qualified leads."
+
+
+​**(12-15 seconds) - Step 3: Deployment**
+
+​Visual: Show the user dashboard from 1000222250.png again, this time focusing on the https://realestateaiagentjayprakash.vercel.app/ URL.
+
+​Text Overlay: "Step 3: Deploy with ease."
+
+​Voiceover: "Step three: Deploy your frontend using a service like Vercel or Replit. Now you have a fully functional voice AI agent!"
+
+
+​Final Call to Action:
+
+​Visual: A final screen with the project's GitHub URL.
+
+​Text Overlay: "Project available on GitHub."
+
+​Voiceover: "Get the full code and build your own. Link in bio!"
+
+
+Generate a voice cover for this post.
+Because I already made a video
+
+I need voice
+
+Generate voice in .mp3
+
